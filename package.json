@@ -1,0 +1,13 @@
+{
+  "name": "tilda-exp",
+  "version": "1.0.0",
+  "description": "Experimental script for double ratchet encrypted communication.",
+  "main": "index.ts",
+  "author": "Muavia Usmani",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "2key-ratchet": "^1.0.18",
+    "@peculiar/webcrypto": "^1.1.4"
+  }
+}
