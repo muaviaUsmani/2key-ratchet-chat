@@ -74,6 +74,10 @@ To run all demo at once, use
 ```
 tsc index.ts && node index.js all
 ```
+If you face issues running, upgrade your global installation of typescript, or run
+```
+./node_modules/.bin/tsc index.ts && node index.js all
+```
 
 # Known issues
 Hard to store identity object on file or as string. Which is why individual steps highlighted above won't work yet. Parsed string/object from file is then treated as plain `Object` rather than `IJsonIdentity` object. This needs some more research.
